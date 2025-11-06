@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pro Quiz — OOPs • OS • CN • Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Welcome Screen -->
+    <section id="welcome" class="card">
+      <h1>Welcome to the Tech Quiz 🎓</h1>
+      <p>10 multiple-choice questions from <strong>OOPs</strong>, <strong>Operating Systems</strong>, <strong>Computer Networks</strong>, and <strong>Web</strong>.</p>
+      <ul class="features">
+        <li>⏳ 20s per question</li>
+        <li>📊 Progress bar & live score</li>
+        <li>🔊 Click & result sounds</li>
+      </ul>
+      <button id="startBtn" class="btn primary">Start Quiz</button>
+      <p class="note">Tip: You can restart anytime after finishing.</p>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="quizScreen" class="card" style="display:none;">
+      <div class="topbar">
+        <div class="progress-wrap">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <div class="top-info">
+          <span id="qCounter">Q 1 of 10</span>
+          <span id="liveScore">Score: 0</span>
+        </div>
+      </div>
+
+      <div id="timer" class="timer">20</div>
+
+      <div id="question" class="question">Question text</div>
+      <div id="answers" class="answers"></div>
+
+      <div class="controls">
+        <button id="nextBtn" class="btn">Next</button>
+        <button id="restartBtn" class="btn subtle" style="display:none;">Restart</button>
+      </div>
+    </section>
+
+    <!-- Result Screen -->
+    <section id="resultScreen" class="card" style="display:none;">
+      <h2 id="resultTitle">Result</h2>
+      <p id="resultText"></p>
+      <p id="bestScoreText" class="best-score"></p>
+      <div class="controls">
+        <button id="playAgainBtn" class="btn primary">Play Again</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
