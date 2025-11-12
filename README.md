@@ -1,5 +1,4 @@
 
-Live -https://core-fundamentalsquiz-application.netlify.app/
 # Quiz-application
 🧠 Pro Quiz — OOPs • OS • CN • Web
 
