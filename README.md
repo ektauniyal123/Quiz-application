@@ -7,7 +7,7 @@ It features a modern UI, timer-based questions, and live score tracking.
 
 🚀 Features
 
-🎯 10 Multiple-Choice Questions covering OOPs, OS, CN, and Web topics
+🎯 20 Multiple-Choice Questions covering OOPs, OS, CN, and Web topics
 
 ⏳ 20-second timer for each question
 
